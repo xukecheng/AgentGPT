@@ -1,8 +1,8 @@
 version: "3.9"
 
 services:
-  next:
-    container_name: next
+  frontend:
+    container_name: frontend
     build:
       context: ./next
       dockerfile: Dockerfile
